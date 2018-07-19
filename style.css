@@ -78,8 +78,8 @@ header{
 /*Letters css ends here*/
 
 #border{
+  margin-top: 15px;
   padding-bottom:5px;
-  height: 1px;
   background:linear-gradient(to left,#10586E,#31E3A8,#10586E,#31E3A8,#10586E,#31E3A8,#10586E,#31E3A8,#10586E);
   position: fixed;
   width: 100%;
@@ -139,7 +139,7 @@ header #pad{
 
 /* Sidebar css begins here*/
 aside#sidebar{
-float:right;
+  padding: 150px 0 0 100px;
 width:30%;
 margin-top:10px;
 }
@@ -203,6 +203,7 @@ article #abbs h3{
   background:linear-gradient(to top,#10586E 28%,#31E3A8)no-repeat;
 }
 
+
 #main{
   padding-bottom: 150px;
 }
@@ -220,6 +221,9 @@ margin-bottom:10px;
 ul#abbs li{
   margin-left: 20px;
   padding-bottom: 5px;
+}
+ul#abbs p{
+  color: white;
 }
 /* Abbs css begins here*/
 ul#abbs .abbs1,.abbs2,.abbs3{
